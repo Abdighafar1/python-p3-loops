@@ -53,6 +53,19 @@ function reverseString(str) {
 Write a function `square_integers()` that takes one argument, a list of
 integers and returns the list of squared elements.
 */
-function square_integers(int_list){
-  return int_list.map((num) => Math.pow(num, 2) )
+function square_integers(int_list) {
+  return int_list.map((num) => Math.pow(num, 2))
+}
+
+
+let i = 0;
+while (i < 5) {
+  console.log("Looping!")
+  i++;
+}
+
+
+for (let i = 0; i < 10; i++) {
+  console.log(`Looping!`);
+  console.log(`i is: ${i}`);
 }
